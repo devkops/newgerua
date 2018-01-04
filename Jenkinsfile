@@ -1,6 +1,6 @@
 node {
   def project = 'devops-preprod'
-  def appName = 'newgerua'
+  def appName = 'gerua'
   def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
   checkout scm
